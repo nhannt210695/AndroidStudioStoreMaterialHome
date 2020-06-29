@@ -7,11 +7,12 @@ Sumary
   +Inherited fields
   +Public constructors
   +Public methods
-    void onCreate(Bundle savedInstanceState)
+    
     void anhXa()
     void setUpSystem()
     void setUpViewPager()
   +Protected methods
+    void onCreate(Bundle savedInstanceState)
   +Inherited methods
 Public constructors
   
