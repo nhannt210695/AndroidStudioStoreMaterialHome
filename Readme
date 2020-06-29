@@ -1,0 +1,17 @@
+Main Activity 2  
+Sumary
+  +Inherited constants
+    public static int changePage = 0;
+    public static TabLayout tabLayout;
+    public static List<ItemSearch> lsItemSearch;
+  +Inherited fields
+  +Public constructors
+  +Public methods
+    void onCreate(Bundle savedInstanceState)
+    void anhXa()
+    void setUpSystem()
+    void setUpViewPager()
+  +Protected methods
+  +Inherited methods
+Public constructors
+  
