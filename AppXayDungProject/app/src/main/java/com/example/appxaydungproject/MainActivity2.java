@@ -1,5 +1,9 @@
+// Bạn đang dùng gì để lập trình dự án này vậy?
+// Bạn có dùng những cái gì? của ai không? Bạn vui lòng tôn trọng tác phẩm và tác giả hãy để lại dẫn xuất những gì bạn mượn của người khác nhé.
+
 package com.example.appxaydungproject;
 
+// Import những cái này để làm gì tôi chưa hiểu bạn cần gì ở những thư viện này?
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +12,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+// Import những cái này để làm gì tôi chưa hiểu bạn cần gì ở những thư viện này?
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
@@ -15,6 +20,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
+// Import những cái này để làm gì tôi chưa hiểu bạn cần gì ở những thư viện này?
 import com.example.appxaydungproject.Model.ItemSearch;
 import com.example.appxaydungproject.TabMenu.BlankFragmentCaNhan;
 import com.example.appxaydungproject.TabMenu.BlankFragmentDanhMuc;
@@ -22,6 +28,7 @@ import com.example.appxaydungproject.TabMenu.BlankFragmentHome;
 import com.example.appxaydungproject.TabMenu.BlankFragmentTimKiem;
 import com.google.android.material.tabs.TabLayout;
 
+// Import những cái này để làm gì tôi chưa hiểu bạn cần gì ở những thư viện này?
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -29,9 +36,11 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class MainActivity2 extends AppCompatActivity {
-//    Summary
+// Bạn có thể mô tả sơ lược về class theo cấu trúc được không? Tôi không thể nhìn tổng thể class này dùng để làm gì. Mối quan hệ của class này với những cái khác.
+    
     //  Inherited constants
     private ImageView bgapp;
+    // Chức năng hoặc công dụng của nó là gì vậy? Quy tắc đặt tên của bạn là gì?
     private TabLayout.Tab tab;
     private ViewPager viewPager;
     private BlankFragmentHome homeFragment;
@@ -39,11 +48,16 @@ public class MainActivity2 extends AppCompatActivity {
     private BlankFragmentTimKiem timkiemFragment;
     private BlankFragmentCaNhan canhanFragment;
     private ViewPagerAdapter viewPagerAdapter;
+    
+    // Hãy để 1 dòng trống để tôi hiểu nó theo từng nhóm bạn nhé, như vậy sẽ dễ nhìn hơn.
     //    Inherited fields
     public static int changePage = 0;
     public static TabLayout tabLayout;
     public static List<ItemSearch> lsItemSearch;
+    
     //    Public constructors
+    // Empty - Hãy để như vậy nếu không có gì ở nhóm này
+    
     //    Protected methods
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,16 +66,23 @@ public class MainActivity2 extends AppCompatActivity {
         anhXa();
         setUpSystem();
     }
-//    Inherited methods
-//Public constructors
-
     
-//Public methods
+    //    Inherited methods
+    // Empty
+    
+    //Public constructors
+    // Empty    
+    
+    //Public methods
     private void anhXa(){
+    // Công dụng:
+    // Đầu vào:
+    // Đầu ra:
+    // Lưu ý:
+        
         bgapp = (ImageView) findViewById(R.id.imgviewIntro);
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         viewPager = (ViewPager) findViewById(R.id.viewPager);
-
     }
     private void setUpSystem(){
         bgapp.animate().translationY(-2000).setDuration(800).setStartDelay(500);
