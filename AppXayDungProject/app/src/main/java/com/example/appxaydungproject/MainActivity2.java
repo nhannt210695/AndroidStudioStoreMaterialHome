@@ -29,17 +29,22 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class MainActivity2 extends AppCompatActivity {
+//    Summary
+    //  Inherited constants
     private ImageView bgapp;
-    public static int changePage = 0;
     private TabLayout.Tab tab;
     private ViewPager viewPager;
-    public static TabLayout tabLayout;
     private BlankFragmentHome homeFragment;
     private BlankFragmentDanhMuc danhmucFragment;
     private BlankFragmentTimKiem timkiemFragment;
     private BlankFragmentCaNhan canhanFragment;
     private ViewPagerAdapter viewPagerAdapter;
+    //    Inherited fields
+    public static int changePage = 0;
+    public static TabLayout tabLayout;
     public static List<ItemSearch> lsItemSearch;
+    //    Public constructors
+    //    Protected methods
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +52,11 @@ public class MainActivity2 extends AppCompatActivity {
         anhXa();
         setUpSystem();
     }
+//    Inherited methods
+//Public constructors
+
+    
+//Public methods
     private void anhXa(){
         bgapp = (ImageView) findViewById(R.id.imgviewIntro);
         tabLayout = (TabLayout) findViewById(R.id.tabs);
